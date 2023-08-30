@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarsPlanet</title>
+
+    <!-- Render All Element Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- Fonts Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper JS CSS-link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <i class="fas fa-bars toggle"></i>
+        <a href="#home">
+          <div class="logo">
+            <p><span>CARS</span>PLANET</p>
+          </div>
+        </a>
+        <nav>
+          <ul>
+            <li>
+              <a href="#home" class="active home">Home</a>
+            </li>
+            <li>
+              <a href="#motors">Motors</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#featured">Featured</a>
+            </li>
+            <li>
+              <a href="#reviews">Reviews</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="form">
+          <i class="fas fa-user login-user"></i>
+          <input class="login" type="submit" value="Login" />
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Login -->
+    <div class="overlay">
+      <span class="fas fa-times"></span>
+      <div class="login-form">
+        <div class="content">
+          <h2>User Login</h2>
+          <form action="">
+            <input type="email" placeholder="email" />
+            <input type="password" placeholder="password" />
+            <p class="forget-pass">
+              Forget Your Password <a href="">Click Here</a>
+            </p>
+            <input type="submit" value="Login" />
+            <p class="other">Or Login With</p>
+            <div class="social">
+              <a href="">Google</a>
+              <a href="">Facebook</a>
+            </div>
+            <p class="create">
+              Don't Have An Account <a href="">Create One</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Login -->
+    <!-- Start Landing -->
+    <div class="landing" id="home">
+      <div class="container">
+        <div  class="info">
+          <h2>FIND YOUR BEST CAR</h2>
+          <button class="special_btn">
+            <a href="#motors">Explore <CARS></a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start Statistics -->
+    <div class="stats">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-home"></i>
+          <div class="more">
+            <p>150+</p>
+            <p>Branches</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <div class="more">
+            <p>4770+</p>
+            <p>Cars Sold</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-users"></i>
+          <div class="more">
+            <p>320+</p>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <div class="more">
+            <p>1500+</p>
+            <p>News Cars</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Statistics -->
+    <!-- Start Motors -->
+    <div class="motors" id="motors">
+      <h2 class="heading">Popular Cars</h2>
+      <div class="container">
+        <div class="swiper holder">
+          <div class="swiper-wrapper">
+            <div class="box swiper-slide">
+              <img src="images/1.png" alt="" />
+              <div class="info">
+                <h3>BMW 6 SERIES GRAN</h3>
+                <p>Price: <span>₹ 7,250,000/-</span></p>
+                <div class="more">
+                  <p>New</p>
+                  <p>2023</p>
+                  <p>Automatic&Manual</p>
+                  <p>Petrol&Diesel</p>
+                  <p>13kmpl</p>
+                </div>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/2.png" alt="" />
+              <div class="info">
+                <h3>ALCARZA</h3>
+                <p>Price: <span>₹13,12,100/-</span></p>
+                <div class="more">
+                  <p>New</p>
+                  <p>2022</p>
+                  <p>Manual</p>
+                  <p>Petrol</p>
+                  <p>15kmpl</p>
+                </div>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/3.png" alt="" />
+              <div class="info">
+                <h3>Mercedes-Benz G-Class</h3>
+                <p>Price: <span>Rs. 2.55 Crore/-</span></p>
+                <div class="more">
+                  <p>New</p>
+                  <p>2023</p>
+                  <p>Only Diesel</p>
+                  <p>09kmpl</p>
+                </div>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/4.png" alt="" />
+              <div class="info">
+                <h3>THE NEW BMW X1</h3>
+                <p>Price: <span>₹ 4,590,000</span></p>
+                <div class="more">
+                  <p>New</p>
+                  <p>2022</p>
+                  <p>Automatic</p>
+                  <p>Petrol</p>
+                  <p>16km/L</p>
+                </div>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/5.png" alt="" />
+              <div class="info">
+                <h3>Dzire</h3>
+                <p>Price: <span>Rs 820,198/-</span></p>
+                <div class="more">
+                  <p>New</p>
+                  <p>2021</p>
+                  <p>Manual</p>
+                  <p>Diesel</p>
+                  <p>23km/L</p>
+                </div>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/6.png" alt="" />
+              <div class="info">
+                <h3>Creta</h3>
+                <p>Price: <span>Rs.10Lakhs</span></p>
+                <div class="more">
+                  <p>New</p>
+                  <p>2021</p>
+                  <p>Automatic</p>
+                  <p>Petrol</p>
+                  <p>15KpL</p>
+                </div>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Motors -->
+    <!-- Start Services -->
+    <div class="services" id="services">
+      <h2 class="heading">Our Services</h2>
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <h3>Car Selling</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vel
+            expedita.
+          </p>
+          <button class="special_btn"><a href="">Read More</a></button>
+        </div>
+        <div class="box">
+          <i class="fas fa-tools"></i>
+          <h3>Parts Repair</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vel
+            expedita.
+          </p>
+          <button class="special_btn"><a href="">Read More</a></button>
+        </div>
+        <div class="box">
+          <i class="fas fa-car-crash"></i>
+          <h3>Car Insurance</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vel
+            expedita.
+          </p>
+          <button class="special_btn"><a href="">Read More</a></button>
+        </div>
+        <div class="box">
+          <i class="fa-sharp fas fa-car-battery"></i>
+          <h3>Battery Replacement</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vel
+            expedita.
+          </p>
+          <button class="special_btn"><a href="">Read More</a></button>
+        </div>
+        <div class="box">
+          <i class="fas fa-gas-pump"></i>
+          <h3>Oil Change</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vel
+            expedita.
+          </p>
+          <button class="special_btn"><a href="">Read More</a></button>
+        </div>
+        <div class="box">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 Support</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vel
+            expedita.
+          </p>
+          <button class="special_btn"><a href="">Read More</a></button>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Feature -->
+    <div class="featured" id="featured">
+      <h2 class="heading">Featured Cars</h2>
+      <div class="container">
+        <div class="swiper featured-swiper">
+          <div class="swiper-wrapper">
+            <div class="box swiper-slide">
+              <img src="images/7.png" alt="" />
+              <div class="info">
+                <h3>AMG Mercendzes</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <p>Rs.32,55,000/-</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/8.png" alt="" />
+              <div class="info">
+                <h3>Kia Carnival</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p>Rs.15,55,000/-</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/9.png" alt="" />
+              <div class="info">
+                <h3>Huyandai</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <p>Rs.925,000/-</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/10.png" alt="" />
+              <div class="info">
+                <h3>BMW X1</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <p>Rs.45,55,000/-</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/5.png" alt="" />
+              <div class="info">
+                <h3>Dzire</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <p>Rs.825,000/-</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/1.png" alt="" />
+              <div class="info">
+                <h3>BMW 6-series</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <p>Rs.23,23,189/-</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper featured-swiper">
+          <div class="swiper-wrapper">
+            <div class="box swiper-slide">
+              <img src="images/4.png" alt="" />
+              <div class="info">
+                <h3>BMW X1</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <p>Rs.45,55,000/-</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/2.png" alt="" />
+              <div class="info">
+                <h3>Alcarza</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <p>Rs.14,54,234/-</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/6.png" alt="" />
+              <div class="info">
+                <h3>Creta</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <p>Rs.10,55,000/-</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/3.png" alt="" />
+              <div class="info">
+                <h3>G-wagon</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <p>Rs.2.5Cr</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/8.png" alt="" />
+              <div class="info">
+                <h3>Kia Carnival</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <p>Rs12,55,000/-</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/10.png" alt="" />
+              <div class="info">
+                <h3>BMW X1</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <p>Rs.43,55,000/-</p>
+                <button class="special_btn"><a href="">Check Out</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Feature -->
+    <!-- Start Subscribe -->
+    <div class="subscribe">
+      <div class="container">
+        <h2>Subscribe For Latest Updates</h2>
+        <!-- <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere,
+          perspiciatis!
+        </p> -->
+        <form>
+          <input type="email" placeholder="enter your email" />
+          <input type="submit" value="Subscribe" />
+        </form>
+      </div>
+    </div>
+    <!-- End Subscribe -->
+    <!-- Start Testimonial -->
+    <div class="testimonial" id="reviews">
+      <h2 class="heading">Client's Review</h2>
+      <div class="container">
+        <div class="swiper testimonial-swiper">
+          <div class="swiper-wrapper">
+            <div class="box swiper-slide">
+              <img src="images/client-01.png" alt="" />
+              <p>
+                This website made my work more easy than before.
+              </p>
+              <h3>Vishal Mishra</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/client-02.png" alt="" />
+              <p>
+                This is the best website for sreaching cars detail.
+              </p>
+              <h3>Dhruv Mheta</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/client-03.png" alt="" />
+              <p>
+                I am Total in love with Website
+              </p>
+              <h3>Devansh Motwani</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/client-04.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+                placeat molestias amet, voluptatum dolores quisquam delectus
+                ipsa vel ullam deleniti?
+              </p>
+              <h3>John Deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/client-01.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+                placeat molestias amet, voluptatum dolores quisquam delectus
+                ipsa vel ullam deleniti?
+              </p>
+              <h3>John Deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <div class="box swiper-slide">
+              <img src="images/client-04.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+                placeat molestias amet, voluptatum dolores quisquam delectus
+                ipsa vel ullam deleniti?
+              </p>
+              <h3>John Deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonial -->
+    <!-- Start Contact -->
+    <div class="contact" id="contact">
+      <h2 class="heading">Contact Us</h2>
+      <div class="container">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/place/Thadomal+Shahani+Engineering+College/@19.0644647,72.8332853,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c91130392c07:0x3c47bf391c8de931!8m2!3d19.0644647!4d72.8358602!16zL20vMDZqNG1j?entry=ttu"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            style="border: 0; width: 100%; height: 100%;"
+        ></iframe>
+        </div>
+        <div class="form">
+          <h2>Get In Touch</h2>
+          <form>
+            <input type="text" name="name" placeholder="your name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="your email"
+              required
+            />
+            <input type="text" name="subject" placeholder="subject" required />
+            <textarea name="message" placeholder="your message"></textarea>
+            <button class="special_btn"><a href="">Send Message</a></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="box">
+          <h3>Our Branches</h3>
+          <ul class="branches">
+            <li>
+              <span></span>
+              Borivali
+            </li>
+            <li>
+              <span></span>
+              Dockyard
+            </li>
+            <li>
+              <span></span>
+              Chembur
+            </li>
+            <li>
+              <span></span>
+              Bandra
+            </li>
+            <li>
+              <span></span>
+              Amravati
+            </li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Quick Links</h3>
+          <ul class="quick-links">
+            <li>
+              <span></span>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <span></span>
+              <a href="#motors">Motors</a>
+            </li>
+            <li>
+              <span></span>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <span></span>
+              <a href="#featured">Featured</a>
+            </li>
+            <li>
+              <span></span>
+              <a href="#reviews">Reviews</a>
+            </li>
+            <li>
+              <span></span>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Contact Info</h3>
+          <ul class="contact-info">
+            <li>
+              <span></span>
+              +123-456-789
+            </li>
+            <li>
+              <span></span>
+              +111-222-3333
+            </li>
+            <li>
+              <span></span>
+              carsplanetenquiry@gmail.com
+            </li>
+            <li>
+              <span></span>
+              LinkRoad,Bandra-400051
+            </li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Social Media</h3>
+          <ul class="social-media">
+            <li>
+              <i class="fab fa-facebook"></i>
+              Facebook
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i>
+              Twitter
+            </li>
+            <li>
+              <i class="fab fa-instagram"></i>
+              Instagram
+            </li>
+            <li>
+              <i class="fab fa-linkedin"></i>
+              Linkedin
+            </li>
+            <li>
+              <i class="fab fa-pinterest"></i>
+              Pinterest
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Created By <span>Ap</span> | All Rights Reserved</p>
+        <p>designed By ANSHUL AND HIS Team</p>
+      </div>
+    </div>
+    <!-- End Footer -->
+    <a href="#home" class="up">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+
+    <!-- Swiper JS JS-link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
