@@ -1041,3 +1041,41 @@
   .up.show {
     right: 10px;
   }
+
+  /* User review */
+  .review-container {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    text-align: center;
+    border: #007bff;
+}
+
+.review-form {
+    text-align: center;
+}
+
+.review-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.review-textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.review-submit {
+    background-color: #ffee80;
+    color: #050505;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+/* End User review */
