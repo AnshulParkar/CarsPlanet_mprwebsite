@@ -1124,3 +1124,26 @@ body {
 }
 
 /* Add more styles as needed */
+
+/* Your styles go here */
+/* Example styles for checkboxes */
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 5px;
+}
+
+/* Style for location search */
+.loction-search {
+  display: flex;
+  align-items: center;
+}
+
+.loction-search input {
+  margin-right: 5px;
+}
+
+/* Add more styles as needed */
