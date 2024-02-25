@@ -984,7 +984,7 @@ body {
 .search-container {
   text-align: center;
   margin: 50px auto;
-  background-color: white; /* Container background color */
+  /* background-color: white; Container background color */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -1100,3 +1100,27 @@ body {
   border-radius: 4px;
   margin-top: 10px;
 }
+
+
+/* Your styles go here */
+/* Example styles for checkboxes */
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 5px;
+}
+
+/* Style for location search */
+.loction-search {
+  display: flex;
+  align-items: center;
+}
+
+.loction-search input {
+  margin-right: 5px;
+}
+
+/* Add more styles as needed */

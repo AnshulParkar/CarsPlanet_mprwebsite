@@ -160,3 +160,16 @@ function search() {
     console.log("Brand Selection: " + brandSelection);
     console.log("Type Selection: " + typeSelection);
 }
+
+
+
+// Your JavaScript logic goes here
+// Example: Handle checkbox click event
+const checkboxes = document.querySelectorAll('.checkbox input');
+
+checkboxes.forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+        console.log(`Checkbox with value ${this.value} is ${this.checked ? 'checked' : 'unchecked'}`);
+        // Add your logic here based on checkbox changes
+    });
+});
