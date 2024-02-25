@@ -972,3 +972,37 @@
     border-radius: 7px;
 }
 /* End User review */
+
+/* Add your styling here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Grey background color */
+  margin: 0;
+  padding: 0;
+}
+
+.search-container {
+  text-align: center;
+  margin: 50px auto;
+  background-color: white; /* Container background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 200px;
+}
+
+select {
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

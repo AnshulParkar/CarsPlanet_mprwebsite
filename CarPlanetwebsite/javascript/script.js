@@ -148,3 +148,15 @@ var swiper = new Swiper(".testimonial-swiper", {
         },
     },
 });
+function search() {
+    // Add your search functionality here
+    // You can access the values selected by users using document.getElementById
+    var searchModel = document.getElementById("searchModel").value;
+    var brandSelection = document.getElementById("brandSelection").value;
+    var typeSelection = document.getElementById("typeSelection").value;
+
+    // Implement your search logic based on the selected values
+    console.log("Search Model: " + searchModel);
+    console.log("Brand Selection: " + brandSelection);
+    console.log("Type Selection: " + typeSelection);
+}
